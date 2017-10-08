@@ -65,7 +65,8 @@ function userErrorHandler($errno, $errmsg, $filename, $linenum, $vars)
     error_log($err, 3, "./errorfunc_examples.log");
 
     if ($errno == E_USER_ERROR) {
-        mail("1394139539@qq.com", "Critical User Error", $err);
+        // mail 函数执行太慢了, 暂时关闭
+        // mail("1394139539@qq.com", "Critical User Error", $err);
     }
 }
 
