@@ -42,5 +42,11 @@ sudo vim /etc/php/7.0/cli/php.ini
 设置  opcache.enable_cli 为 1
 ```
 
+### 参考文章
+* http://www.jianshu.com/p/f089b6d19382
+* http://blog.csdn.net/why_2012_gogo/article/details/51134674
+* https://tideways.io/profiler/blog/fine-tune-your-opcache-configuration-to-avoid-caching-suprises
+* https://github.com/rlerdorf/opcache-status
+
 ### cli 下使用 OPcache 存在的问题
 * 仅在执行脚本时缓存生效, web 下却正常
