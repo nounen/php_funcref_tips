@@ -43,6 +43,8 @@ sudo vim /etc/php/7.0/cli/php.ini
 ```
 
 ### 参考文章
+* https://laravel-china.org/topics/301/using-opcache-to-enhance-the-performance-of-the-php-55-program
+* https://laravel-china.org/articles/4362/let-the-program-fly-laravel-opcache-package
 * http://www.jianshu.com/p/f089b6d19382
 * http://blog.csdn.net/why_2012_gogo/article/details/51134674
 * https://tideways.io/profiler/blog/fine-tune-your-opcache-configuration-to-avoid-caching-suprises
